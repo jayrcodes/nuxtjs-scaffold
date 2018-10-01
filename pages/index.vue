@@ -1,10 +1,10 @@
 <template>
   <section class="container">
     <h1>Test</h1>
-    <p class="message">This is a message</p>
+    <p class="message">{{ $t('home.introduction') }}</p>
     <custom-button
       :on-click="test"
-      title="Sample Button"
+      :title="$t('links.sampleButton')"
       type="primary"
     />
   </section>

@@ -24,6 +24,13 @@ module.exports = {
   loading: { color: '#fff' },
 
   /*
+  ** Routes
+  */
+  router: {
+    middleware: 'i18n'
+  },
+
+  /*
   ** Global CSS
   */
   css: [
@@ -32,8 +39,7 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-  ],
+  plugins: ['~/plugins/i18n.js'],
 
   /*
   ** Nuxt.js modules

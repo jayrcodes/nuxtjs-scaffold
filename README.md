@@ -1,6 +1,8 @@
 # Features
 
  - Sass
+ - Eslint Airbnb
+ - VueI18n
 
 # pbajr-nuxtjs
 

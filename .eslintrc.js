@@ -22,7 +22,9 @@ module.exports = {
     'import/extensions': ['error', 'always', {
       js: 'never',
       vue: 'never'
-    }]
+    }],
+    'no-param-reassign': [2, { 'props': false }],
+    'import/no-extraneous-dependencies': false
   },
   settings: {
     'import/resolver': {
